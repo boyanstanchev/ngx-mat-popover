@@ -1,0 +1,7 @@
+dist
+public
+*.yaml
+package-lock.json
+.angular
+.github
+.vscode
