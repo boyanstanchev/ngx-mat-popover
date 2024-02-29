@@ -1,9 +1,12 @@
 {
   "name": "ngx-mat-popover",
-  "version": "0.0.1",
+  "description": "Angular component providing popover functionality with custom template",
+  "version": "12.0.0-beta",
   "peerDependencies": {
     "@angular/common": "^12.2.0",
-    "@angular/core": "^12.2.0"
+    "@angular/core": "^12.2.0",
+    "@angular/material": "^12.2.13",
+    "@angular/cdk": "^12.2.13"
   },
   "dependencies": {
     "tslib": "^2.3.0"
