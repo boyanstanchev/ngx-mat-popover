@@ -11,6 +11,12 @@
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
+    "paths": {
+      "ngx-mat-popover": [
+        "dist/ngx-mat-popover/ngx-mat-popover",
+        "dist/ngx-mat-popover"
+      ]
+    },
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
