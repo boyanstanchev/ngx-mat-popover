@@ -6,7 +6,12 @@ import { CLOSE, TEMPLATE_REF } from './ngx-mat-popover.directive';
 		<mat-card class="mat-elevation-z15">
 			<div class="close-btn-container">
 				<button class="close-btn" (click)="close()" mat-icon-button>
-					<mat-icon>close</mat-icon>
+					<mat-icon
+						aria-hidden="false"
+						aria-label="Example home icon"
+						fontIcon="close"
+					></mat-icon>
+					<!-- <mat-icon>close</mat-icon> -->
 				</button>
 			</div>
 
